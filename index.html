@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+    <!--Stylesheet and script links-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <title> Directoryio | Discover business information</title>
+    <link rel="icon" href="dic.jpg" type="image/x-icon">
+    <!--css-->
+
+    <style>
+        #c1 {
+            color: black;
+        }
+
+        #c2:hover {
+            font-weight: bolder;
+        }
+
+        #c3 {
+            color: white;
+        }
+
+        .navbar-toggler {
+            color: white;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .cardWidth {
+            width: 100%;
+        }
+
+        .body {
+            background-image: url(bgm.png);
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        .container {
+            height: 100%;
+            align-content: center;
+        }
+
+        .card1 {
+            height: 300px;
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .card1-header h3 {
+            color: #ffc107;
+        }
+
+        .border-left {
+            border-left: 3px solid whitesmoke;
+        }
+
+        .icons {
+            font-size: 50px;
+            text-decoration: none;
+        }
+
+        .link {
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        #sponsoricon {
+            height: 2cm;
+            width: 5cm;
+        }
+    </style>
+</head>
+
+<body class="container-fluid img-responsive body">
+    <!--navbar-->
+    <nav
+        class="navbar navbar-expand-lg navbar-light bg-dark container-fluid navbar-inverse navbar-fixed bg-light shadow-lg ">
+        <div class="container-fluid" id="c3">
+            <a href="index.html" class="navbar-brand text-warning" id="c2"
+                style="font-family: 'Arvo', serif;">DIRECTORYio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-warning" id="c2" aria-current="page" style="font-weight: bolder;"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="c2" style="color: white;" href="loginpage.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="c2" style="color:white" href="registerpage.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="c2" style="color:white" target="_blank" href="aboutus.html">About us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--body-->
+    <script src="https://kit.fontawesome.com/eec1dfbdd4.js" crossorigin="anonymous"></script>
+    <div class="container-fluid d-none d-xl-block d-lg-bock d-md-block">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center h-100 mt-3">
+                    <div class="card1">
+                        <div class="card1-header mt-3 ms-4">
+                            <h3>Find business Information</h3>
+                        </div>
+                        <div class="card-body" id="c3">
+                            <h5 style="font-style: italic;text-indent: 1cm;">Browse structured, hand selected content
+                                and relevant feeds to help you find what you
+                                need.</h5>
+                            <div class="row ms-1 mt-5" id="c3" style="font-family:'Aleo';">
+                                <div class="col-2"><i class="fas fa-search " style="font-size: 100px;"></i></div>
+                                <div class="col-2 border-left">
+                                    <div class="row">
+                                        <h5>COMPANIES</h5>
+                                    </div>
+                                    <div class="row text-warning">
+                                        <h2>2.5 M</h2>
+                                    </div>
+                                </div>
+                                <div class="col-2 border-left">
+                                    <div class="row">
+                                        <h5>PEOPLE </h5>
+                                    </div>
+                                    <div class="row text-warning">
+                                        <h2>10 M</h2>
+                                    </div>
+                                </div>
+                                <div class="col-2 border-left">
+                                    <div class="row">
+                                        <h5>TOPICS</h5>
+                                    </div>
+                                    <div class="row text-warning">
+                                        <h2>47 K</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--featured pages-->
+    <div class="container-fluid">
+        <div class="row mt-5 text-warning text-center">
+            <h4 class="text-warning"><i class="fa fa-heart" aria-hidden="true"> Featured pages</i></h4>
+        </div>
+        <div class="row mb-5">
+            <div class="card mt-1" style="width: 18rem;margin-right: 4px;">
+                <div class="card-header "></div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3"><img
+                                src="https://s3.amazonaws.com/spoke-profiles-prod-assets/avatars/50x50h/512c17e6ac2ae65a9ccef5fd4629a925b40659ec.png"
+                                alt=""></div>
+                        <div class="col"><a href="https://en.wikipedia.org/wiki/Apple_Inc." class="link">Apple</a></div>
+                    </div>
+                    <div class="row">Apple designs and markets consumer electronics, computer software,personal
+                        computers.It
+                        is world's largest company by revenue</div>
+                    <div class="row mt-3">
+                        <div class="col-2"><i class="fa fa-globe"></i></div>
+                        <div class="col">Cupertino,CA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"><i class="fa fa-industry"></i></div>
+                        <div class="col" style="font-size:15px">Electronic manufacturing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-1" style="width: 18rem;margin-right: 4px;">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3 border-dark"><img class="link"
+                                src="https://s3.amazonaws.com/spoke-profiles-prod-assets/avatars/50x50h/d49680d86296e2b9d687a50e92e023d218bb47af.png"
+                                alt=""></div>
+                        <div class="col"><a href="https://en.wikipedia.org/wiki/Tesla,_Inc." class="link">Tesla</a>
+                        </div>
+                    </div>
+                    <div class="row">Tesla’s mission is to accelerate the world’s transition to sustainable energy
+                        through
+                        increasingly affordable electric vehicles</div>
+                    <div class="row mt-3">
+                        <div class="col-2"><i class="fa fa-globe"></i></div>
+                        <div class="col">Palo Alto,CA</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"><i class="fas fa-industry"></i></div>
+                        <div class="col" style="font-size: 15px;">Automobile Manufacturing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-1" style="width: 18rem;">
+                <div class="card-header"></div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3 border-dark"><img
+                                src="https://s3.amazonaws.com/spoke-profiles-prod-assets/avatars/110x110h/f47aed6713829f618da8d9c35380859631739377.png"
+                                style="width: 1.2cm;height: 1.2cm; " alt=""></div>
+                        <div class="col"><a href="https://en.wikipedia.org/wiki/Microsoft" class="link">Microsoft</a>
+                        </div>
+                        <div class="row mt-2">Microsoft Corporation is an American multinational technology company
+                            which
+                            produces pc, software etc. </div>
+                        <div class="row mt-3">
+                            <div class="col-2"><i class="fa fa-globe"></i></div>
+                            <div class="col">Redmond,Washington</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2"><i class="fas fa-industry"></i></div>
+                            <div class="col" style="font-size: 15px;">Software Company</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-1 mb-2 bg-dark">
+                    <div class="row">
+                        <button class="btn btn-success mt-2 mb-2 ms-4" style="width: auto;height: auto;">
+                            <h3>Add a page</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-dark">
+                    <div class="card-body">
+                        <h4 class="text-light" style="font-size: large;"> <i class="fa fa-share" aria-hidden="true"></i>
+                            Share this page</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col-2">
+                                <a href="#" class="fa fa-facebook-square" style="font-size: 35px;text-decoration: none;"
+                                    aria-hidden="true"></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#" class="fa fa-twitter-square" style="font-size: 35px;text-decoration: none;"
+                                    aria-hidden="true"></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#" class="fa fa-google-plus-square text-danger"
+                                    style="font-size: 35px;text-decoration: none;" aria-hidden="true"></a>
+                            </div>
+                            <div class="col-2">
+                                <a href="#" class="fa fa-instagram text-light"
+                                    style="font-size: 35px;text-decoration: none;" aria-hidden="true"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--directory curators-->
+
+    <div class="container-fluid mb-3">
+        <div class="text-warning text-center">
+            <h4>Directoryio Curators</h4>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="card bg-gradient" style="width:auto">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="profile.jpg" alt="profile" class="img-fluid" style="height: 3cm;width: 3cm;">
+                            </div>
+                            <div class="col-2">
+                                <div class="row" style="font-weight: bold;">LOKESH M</div>
+                                <div class="row">300 postings</div>
+                            </div>
+                            <div class="col-1">
+                                <img src="https://s3.amazonaws.com/spoke-profiles-prod-assets/avatars/50x50h/9423737c74458f106654a2891a45639f22663a11.png"
+                                    class="img-fluid"></img>
+                            </div>
+                            <div class="col-4">
+                                <div class="row" style="font-weight: bold;">BECOME A CURATOR</div>
+                                <div class="row">Create Edit and Add your insights to Directoryio Pages, for
+                                    recognitions and
+                                    awards.
+                                </div>
+                                <a href="registerpage.html" class="row btn btn-dark mt-2"
+                                    style="font-weight: bold;">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark ">
+                    <div class="card-body ms-2">
+                        <div class="row text-warning" style="font-weight: bold;">Become a Directoryio content provider.
+                        </div>
+                        <a href="#" class="row btn btn-light text-dark mt-2" style="font-weight: bold;">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--content providers-->
+
+    <div class="bg-light container-fluid mb-3 rounded-2">
+        <div class="row align-content-center rounded">
+            <p style="text-align: center;font-size: large;font-weight: bold;margin-top: .4cm;">Some of Directoryio's
+                content providers</p>
+            <div class="row text-center ms-1">
+                <img src="indeed.png" alt="indeed" id="sponsoricon">
+                <img src="businesswire.png" alt="businesswire" id="sponsoricon">
+                <img src="marketwired.png" alt="marketwire" style="height: 1cm;width: 5cm;margin-top: .4cm;">
+                <img src="globalnewswire.png" alt="globalnewswire" id="sponsoricon">
+                <img src="prnewswire.png" alt="prnewswire" id="sponsoricon">
+                <img src="Newswire_1.png" alt="newswire" id="sponsoricon">
+            </div>
+        </div>
+    </div>
+
+    <!--footer lg-->
+    <footer class="container-fluid mb-3 d-none d-none d-lg-block d-xl-none " style="width: auto;">
+
+        <div class="row bg-warning">
+            <div class="col-9 float-start mt-4 mb-4 ms-3" style="font-size: 20px;font-weight: bold;">Get connected with
+                us on social
+                networks!</div>
+            <div class="col float-end mt-4 mb-4"><a href="#" style="text-decoration: none;color: black;font-size: 30px;"
+                    class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="#" style="color: black;text-decoration: none;font-size: 30px;" class="fa fa-google-plus ms-3"
+                    aria-hidden="true"></a><a href="#" class="fa fa-twitter ms-3"
+                    style="font-size: 30px;color: black;text-decoration: none;" aria-hidden="true"></a><a href="#"
+                    class="fa fa-instagram ms-3" style="text-decoration: none;color: black;font-size: 30px;"
+                    aria-hidden="true"></a>
+            </div>
+        </div>
+        <div class="row" style="background-color: black;">
+            <div class="row">
+                <div class="col-5 mb-3">
+                    <div class="row mt-3 text-warning">
+                        <h3>DIRECTORYIO</h3>
+                    </div>
+                    <div class="row ms-2 text-light">Directoryio is a business directory containing every
+                        information of
+                        companies,industries etc.. Want to know about a company,Directoryio is the place.There are
+                        records of 4M companies and counting.</div>
+                </div>
+                <div class="col-3">
+                    <div class="row text-warning ms-3 mt-3">
+                        <h4>CONTACT</h4>
+                    </div>
+                    <div class="row ms-4"><i class="fa fa-envelope text-white" aria-hidden="true">
+                            directoryio@gmail.com</i>
+                    </div>
+                    <div class="row mt-3 ms-4"><i class="fa fa-address-book text-white" aria-hidden="true">
+                            04342-98765</i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row text-warning mt-3 ms-3">
+                        <h4>QUICK LINKS</h4>
+                    </div>
+                    <div class="row ms-4"><a href="loginpage.html" style="text-decoration: none;color: white;">Login</a>
+                    </div>
+                    <div class="row ms-4"><a href="registerpage.html"
+                            style="text-decoration: none; color: white;">Register</a></div>
+                    <div class="row ms-4"><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfTF3V5pNAbVjv_YELM9P62SrEayQKf1a-kA2uRXWKXIeUQDA/viewform?fbzx=5286366066569844254"
+                            style="text-decoration: none;color: white;">Feedback</a></div>
+                    <div class="row ms-4"><a href="aboutus.html" target="_blank" style="text-decoration: none; color: white;">About
+                            us</a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row mb-3">
+                <div class="col-10 float-start text-warning">&copy 2021 Directoryio Inc. All Rights Reserved.</div>
+                <div class="col float-end text-warning" id="c2" style="font-family: 'Arvo', serif;">Directoryio</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--footer sm-->
+    <footer class="container-fluid d-none d-sm-block d-md-none">
+        <div class="row bg-warning">
+            <div class="row" style="font-weight: bolder;">Get connected with us on social networks!</div>
+            <div class="row">
+                <div class="col-2">
+                    <a href="#" style="text-decoration: none;color: black;font-size: 30px;" class="fa fa-facebook"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" style="color: black;text-decoration: none;font-size: 30px;" class="fa fa-google-plus"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="fa fa-twitter" style="font-size: 30px;color: black;text-decoration: none;"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="fa fa-instagram " style="text-decoration: none;color: black;font-size: 30px;"
+                        aria-hidden="true"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: black;">
+            <div class="row">
+                <div class="row text-warning">
+                    <h3>Directoryio</h3>
+                </div>
+                <div class="row ms-2 text-light">
+                    Directoryio is a business directory containing every
+                    information of
+                    companies,industries etc.. Want to know about a company,Directoryio is the place.There are
+                    records of 4M companies and counting.
+                </div>
+            </div>
+            <div class="row">
+                <h3><a href="aboutus.html" style="text-decoration: none;" class="text-warning">About us</a></h3>
+            </div>
+            <div class="row">
+                <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTF3V5pNAbVjv_YELM9P62SrEayQKf1a-kA2uRXWKXIeUQDA/viewform?fbzx=5286366066569844254"
+                        style="text-decoration: none;" class="text-warning">Feedback</a></h3>
+            </div>
+            <div class="row">
+                <div class="row text-warning">
+                    <h3>Contact us</h3>
+                </div>
+                <div class="row text-light">
+                    <div class="row"><i class="fa fa-envelope text-white" aria-hidden="true"> directoryio@gmail.com</i>
+                    </div>
+                    <div class="row"><i class="fa fa-address-book text-white" aria-hidden="true"> 04342-98765</i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row text-warning">&copy 2021 Directoryio Inc. All Rights Reserved.</div>
+                <div class="row text-warning" id="c2" style="font-family: 'Arvo', serif;">Directoryio</div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--footer md-->
+    <footer class="container-fluid d-none d-md-block d-lg-none">
+        <div class="row bg-warning">
+                <div class="col-9 float-start mt-4 mb-4 ms-3" style="font-size: 20px;font-weight: bold;">Get connected with
+                    us on social
+                    networks!</div>
+                <div class="col float-end mt-4 mb-4"><a href="#" style="text-decoration: none;color: black;font-size: 30px;"
+                        class="fa fa-facebook" aria-hidden="true"></a>
+                    <a href="#" style="color: black;text-decoration: none;font-size: 30px;" class="fa fa-google-plus ms-3"
+                        aria-hidden="true"></a><a href="#" class="fa fa-twitter ms-3"
+                        style="font-size: 30px;color: black;text-decoration: none;" aria-hidden="true"></a><a href="#"
+                        class="fa fa-instagram ms-3" style="text-decoration: none;color: black;font-size: 30px;"
+                        aria-hidden="true"></a>
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="row">
+                    <div class="col-5 mb-3">
+                        <div class="row mt-3 text-warning">
+                            <h3>DIRECTORYIO</h3>
+                        </div>
+                        <div class="row ms-2 text-light">Directoryio is a business directory containing every
+                            information of
+                            companies,industries etc.. Want to know about a company,Directoryio is the place.There are
+                            records of 4M companies and counting.</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row text-warning ms-3 mt-3">
+                            <h4>CONTACT</h4>
+                        </div>
+                        <div class="row ms-4"><i class="fa fa-envelope text-white" aria-hidden="true">
+                                directoryio@gmail.com</i>
+                        </div>
+                        <div class="row mt-3 ms-4"><i class="fa fa-address-book text-white" aria-hidden="true">
+                                04342-98765</i>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="row text-warning mt-3 ms-3">
+                            <h4>QUICK LINKS</h4>
+                        </div>
+                        <div class="row ms-4"><a href="loginpage.html" style="text-decoration: none;color: white;">Login</a>
+                        </div>
+                        <div class="row ms-4"><a href="registerpage.html"
+                                style="text-decoration: none; color: white;">Register</a></div>
+                        <div class="row ms-4"><a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSfTF3V5pNAbVjv_YELM9P62SrEayQKf1a-kA2uRXWKXIeUQDA/viewform?fbzx=5286366066569844254"
+                                style="text-decoration: none;color: white;">Feedback</a></div>
+                        <div class="row ms-4"><a href="aboutus.html" target="_blank" style="text-decoration: none; color: white;">About
+                                us</a>
+                        </div>
+                    </div>
+    
+    
+    
+                </div>
+                <hr>
+                <div class="row mb-3">
+                    <div class="col-10 float-start text-warning">&copy 2021 Directoryio Inc. All Rights Reserved.</div>
+                    <div class="col float-end text-warning" id="c2" style="font-family: 'Arvo', serif;">Directoryio</div>
+                </div>
+            </div>
+        
+    </footer>
+
+
+    <!--footer xl-->
+    <footer class="container-fluid d-none d-xl-block">
+        <div class="row bg-warning">
+            <div class="col-9 float-start mt-4 mb-4 ms-3" style="font-size: 20px;font-weight: bold;">Get connected with
+                us on social
+                networks!</div>
+            <div class="col float-end mt-4 mb-4"><a href="#" style="text-decoration: none;color: black;font-size: 30px;"
+                    class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="#" style="color: black;text-decoration: none;font-size: 30px;" class="fa fa-google-plus ms-3"
+                    aria-hidden="true"></a><a href="#" class="fa fa-twitter ms-3"
+                    style="font-size: 30px;color: black;text-decoration: none;" aria-hidden="true"></a><a href="#"
+                    class="fa fa-instagram ms-3" style="text-decoration: none;color: black;font-size: 30px;"
+                    aria-hidden="true"></a>
+            </div>
+        </div>
+        <div class="row" style="background-color: black;">
+            <div class="row">
+                <div class="col-5 mb-3">
+                    <div class="row mt-3 text-warning">
+                        <h3>DIRECTORYIO</h3>
+                    </div>
+                    <div class="row ms-2 text-light">Directoryio is a business directory containing every
+                        information of
+                        companies,industries etc.. Want to know about a company,Directoryio is the place.There are
+                        records of 4M companies and counting.</div>
+                </div>
+                <div class="col-3">
+                    <div class="row text-warning ms-3 mt-3">
+                        <h4>CONTACT</h4>
+                    </div>
+                    <div class="row ms-4"><i class="fa fa-envelope text-white" aria-hidden="true">
+                            directoryio@gmail.com</i>
+                    </div>
+                    <div class="row mt-3 ms-4"><i class="fa fa-address-book text-white" aria-hidden="true">
+                            04342-98765</i>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row text-warning mt-3 ms-3">
+                        <h4>QUICK LINKS</h4>
+                    </div>
+                    <div class="row ms-4"><a href="loginpage.html" style="text-decoration: none;color: white;">Login</a>
+                    </div>
+                    <div class="row ms-4"><a href="registerpage.html"
+                            style="text-decoration: none; color: white;">Register</a></div>
+                    <div class="row ms-4"><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfTF3V5pNAbVjv_YELM9P62SrEayQKf1a-kA2uRXWKXIeUQDA/viewform?fbzx=5286366066569844254"
+                            style="text-decoration: none;color: white;">Feedback</a></div>
+                    <div class="row ms-4"><a href="aboutus.html" target="_blank" style="text-decoration: none; color: white;">About
+                            us</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <hr>
+            <div class="row mb-3">
+                <div class="col-10 float-start text-warning">&copy 2021 Directoryio Inc. All Rights Reserved.</div>
+                <div class="col float-end text-warning" id="c2" style="font-family: 'Arvo', serif;">Directoryio</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--footer xs-->
+    <footer class="container-fluid d-block d-sm-none">
+        <div class="row bg-warning">
+            <div class="row" style="font-weight: bolder;">Get connected with us on social networks!</div>
+            <div class="row">
+                <div class="col-2">
+                    <a href="#" style="text-decoration: none;color: black;font-size: 30px;" class="fa fa-facebook"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" style="color: black;text-decoration: none;font-size: 30px;" class="fa fa-google-plus"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="fa fa-twitter" style="font-size: 30px;color: black;text-decoration: none;"
+                        aria-hidden="true"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#" class="fa fa-instagram " style="text-decoration: none;color: black;font-size: 30px;"
+                        aria-hidden="true"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: black;">
+            <div class="row">
+                <div class="row text-warning">
+                    <h3>Directoryio</h3>
+                </div>
+                <div class="row ms-2 text-light">
+                    Directoryio is a business directory containing every
+                    information of
+                    companies,industries etc.. Want to know about a company,Directoryio is the place.There are
+                    records of 4M companies and counting.
+                </div>
+            </div>
+            <div class="row">
+                <h3><a href="aboutus.html" style="text-decoration: none;" class="text-warning">About us</a></h3>
+            </div>
+            <div class="row">
+                <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSfTF3V5pNAbVjv_YELM9P62SrEayQKf1a-kA2uRXWKXIeUQDA/viewform?fbzx=5286366066569844254"
+                        style="text-decoration: none;" class="text-warning">Feedback</a></h3>
+            </div>
+            <div class="row">
+                <div class="row text-warning">
+                    <h3>Contact us</h3>
+                </div>
+                <div class="row text-light">
+                    <div class="row"><i class="fa fa-envelope text-white" aria-hidden="true"> directoryio@gmail.com</i>
+                    </div>
+                    <div class="row"><i class="fa fa-address-book text-white" aria-hidden="true"> 04342-98765</i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row text-warning">&copy 2021 Directoryio Inc. All Rights Reserved.</div>
+                <div class="row text-warning" id="c2" style="font-family: 'Arvo', serif;">Directoryio</div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
